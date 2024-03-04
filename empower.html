@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpowerMinds</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="minds.js"></script>
+</head>
+<body>
+    <header class="head">
+        <h1>Welcome to EmpowerMinds</h1>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="#services-section">Services</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slider">
+        <div class="slider-container">
+            <div>
+                <img src="/photos/wajir.jpg" alt="Motto Image">
+                <h2>Our Motto</h2>
+                <br>
+                <p>EmpowerMinds: Unleashing Potential, Inspiring Inclusion.</p>
+            </div>
+            <div>
+                <img src="/photos/madamlucy.jpg" alt="Vision Image">
+                <h2>Our Vision</h2>
+                <br>
+                <p>A world where every individual, regardless of their abilities, has equal access to education, employment, healthcare, and recreational opportunities. We envision a society that celebrates diversity, embraces inclusivity, and recognizes the unique strengths of each individual, fostering a community where all minds can thrive.</p>
+            </div>
+            <div>
+                <img src="/photos/wheelchairs.jpg" alt="Mission Image">
+                <h2>Our Mission</h2>
+                <br>
+                <p>To empower individuals with diverse abilities through comprehensive support services, advocacy, and community engagement. We are dedicated to fostering inclusivity, breaking down barriers, and creating a society where everyone can thrive. Our mission is to provide accessible resources, promote equality, and enhance the overall well-being of individuals with unique abilities, enabling them to lead fulfilling lives and contribute meaningfully to their communities.</p>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="services" id="services-section">
+            <h1>Our Services</h1>
+        </div>
+        <section class="service-box" id="healthcare">
+            <h2><i class="fas fa-medkit"></i> <a href="https://knh.or.ke/">Healthcare Services</a></h2>
+            <p>Find accessible healthcare services near you. Our chatbot is here to help you with any questions or assistance you may need.</p>
+        </section>
+
+        <section class="service-box" id="transportation">
+            <h2><i class="fas fa-bus"></i> <a href="http://www.enacoach.co.ke/#/">Transportation Services</a></h2>
+            <p>Explore accessible transportation options in your area. Our chatbot can provide information on accessible routes and services.</p>
+        </section>
+
+        <section class="service-box" id="education">
+            <h2><i class="fas fa-graduation-cap"></i> <a href="https://teacher.ac/nyaburi-primary-school-population-location-and-kcpe-results/">Education Services</a></h2>
+            <p>Access information about inclusive education programs and facilities. Our chatbot can answer your education-related queries.</p>
+        </section>
+
+        <section class="service-box" id="housing">
+            <h2><i class="fas fa-home"></i> <a href="https://ihgl.co.ke/blog/item/15-key-terms-service-terms">Accessible Housing</a></h2>
+            <p>Find housing options that are adapted to meet the accessibility needs of individuals with disabilities. Our services can help you find the right accessible housing.</p>
+        </section>
+
+        <section class="service-box" id="employment">
+            <h2><i class="fas fa-briefcase"></i> <a href="employment.html">Employment Assistance</a></h2>
+            <p>Discover job opportunities and support for people with disabilities. Our services can help you find employment that suits your abilities.</p>
+        </section>
+
+        <section class="service-box" id="recreation">
+            <h2><i class="fas fa-gamepad"></i> <a href="https://www.kws.go.ke/national-parks">Recreation and Leisure</a></h2>
+            <p>Access information on inclusive recreational activities and facilities, ensuring that everyone can enjoy their leisure time.</p>
+        </section>
+
+        <section class="contact" id="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <form>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                    <input type="submit" name="submit" value="Contact Us">
+                </form>
+            </div>
+        </section>
+
+        <section id="chatbot">
+            <h2>Chat with Us</h2>
+            <div id="chatbot-messages"></div>
+            <div id="user-input-container">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-button">Send</button>
+                <button id="voice-search-button"><i class="fa-solid fa-microphone"></i></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/messages"><i class="fa-solid fa-x"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p>&copy; 2024 EmpowerMinds</p>
+    </footer>
+
+    <script src="minds.js"></script>
+</body>
+</html>
